@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aprenda sobre Unidades de Medida no CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#em">Usando ems</a></li>
+                <li><a href="#percentual">Usando Percentual</a></li>
+                <li><a href="#pixels">Usando Pixels</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <article>
+        <section id="em" class="em">
+            <h2>Usando ems</h2>
+            <p>O <strong>em</strong> é uma unidade relativa no CSS. Seu valor é baseado no tamanho da fonte do elemento pai. Isso permite escalabilidade e melhor acessibilidade.</p>
+            <p>Por exemplo, se o elemento pai tem font-size de 16px, então 1em equivale a 16px, e 2em equivale a 32px.</p>
+        </section>
+
+        <section id="percentual" class="percentual">
+            <h2>Usando Percentual</h2>
+            <p>A unidade <strong>%</strong> é baseada no tamanho do elemento pai. Por exemplo, se uma div tem largura de 500px, e uma outra div dentro dela tem width: 50%, essa segunda div terá 250px de largura.</p>
+            <p>Isso permite layouts mais flexíveis e adaptáveis a diferentes tamanhos de tela.</p>
+        </section>
+
+        <section id="pixels" class="pixels">
+            <h2>Usando Pixels</h2>
+            <p>O <strong>px</strong> é uma unidade absoluta no CSS. Ele não muda conforme o tamanho da tela ou fonte, garantindo um tamanho fixo para os elementos.</p>
+            <p>Usar pixels pode ser útil quando você deseja um design fixo e previsível, mas pode ser menos responsivo.</p>
+        </section>
+    </article>
+
+    <footer>
+        <p>&copy; 2025 - Exercício de CSS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
