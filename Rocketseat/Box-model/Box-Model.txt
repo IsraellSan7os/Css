@@ -1,0 +1,11 @@
+(Box-Model)
+
+- tudo são caixas
+
+- todos elementos html serão considerados uma caixas
+- assim como uma caixa de papelão
+
+(Caixa possue determinadas propriedades)
+
+Conteúdo, lagura, altura, bordar, peenchimento, espaçameto
+

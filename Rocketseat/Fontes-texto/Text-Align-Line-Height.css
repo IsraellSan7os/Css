@@ -1,0 +1,14 @@
+/*Text-align
+   line-height */
+
+.aling{
+    text-align: center;
+
+}
+
+.ex{
+    text-align: center;
+    text-align: justify;
+    line-height: 3rem;
+
+}

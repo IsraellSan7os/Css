@@ -1,0 +1,13 @@
+body {
+
+   /*
+Background-Position, Background-Size
+*/
+
+background-image: url(https://app.rocketseat.com.br/journey/discover/opengraph-image-1pdprp?5f17f2d14f445e53);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+background-size: cover;
+margin-top: 200px;
+}

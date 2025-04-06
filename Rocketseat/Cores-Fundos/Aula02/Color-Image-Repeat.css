@@ -1,0 +1,18 @@
+body {
+
+   /*
+    background-image: url(https://app.rocketseat.com.br/journey/discover/opengraph-image-1pdprp?5f17f2d14f445e53);
+background-color: #fff;
+*/
+}
+
+div {
+    background-image: url(https://app.rocketseat.com.br/journey/discover/opengraph-image-1pdprp?5f17f2d14f445e53);
+    background-color: violet;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}

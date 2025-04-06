@@ -1,0 +1,14 @@
+div{
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+
+    padding: 10px;
+    margin: 20px;
+}
+
+/*Ele cupa toda linha 
+
+Elemento que vem por padrão com display: block
+ div main section header footer nav p h
+*/

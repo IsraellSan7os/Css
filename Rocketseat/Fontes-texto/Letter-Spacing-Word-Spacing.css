@@ -1,0 +1,12 @@
+.letter{
+
+    letter-spacing: 1px;
+}
+
+.spacing{
+
+    text-align: center;
+    word-spacing: 0.9rem;  /*Entre as palavras*/
+    letter-spacing: 0.2rem; /*Entre as letras*/
+    
+}

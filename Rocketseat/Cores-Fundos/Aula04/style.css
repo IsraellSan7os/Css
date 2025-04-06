@@ -1,0 +1,27 @@
+.geral {
+
+    width: 1000px;
+    height: 1000px;
+    background-color: #004a68a2;
+
+}
+
+.sofa {
+
+    background-image: url(Berlim.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-position: center;
+}
+
+.sofa1{
+    background-image: url(Canada.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    
+
+
+}

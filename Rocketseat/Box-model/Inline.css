@@ -1,0 +1,20 @@
+/*O iline ele não ocupa a linha inteira, ele fica na linha que ele está
+
+se for span ele ocupa a linha inteira
+se for div ele nao ocupa a linha inteira
+
+*/
+
+span{
+ 
+    border-width: 1em;
+    border-width: 1em;
+    height: 200px;  /*Nao funciona no span*/
+    width: 200px;  /*Nao funciona no span*/
+
+
+
+    margin: 20px; /*São apenas esse 2 elementos que funcionam no span*/
+    padding: 10px;
+
+}
