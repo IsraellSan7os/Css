@@ -1,0 +1,10 @@
+.especifico {
+    font-size: 12px !important; 
+}   
+
+/*Se o style for adicionado no html ele vai ser mais especifico que o style do css
+mais se eu colocar  o inport do css ele vai ser mais especifico que o style do html
+
+Não recomendo usar o !important
+
+*/

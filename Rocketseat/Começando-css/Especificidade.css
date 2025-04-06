@@ -1,0 +1,30 @@
+/*
+- Cada seletor tem um peso
+- Soma dos pessos faz a declaração ser aplicada
+
+- Peso de cada seletor
+    - Seletor universal *: 0
+    #id - 100
+    .class - 10
+    tag - 1
+*/
+
+p {
+    /*select especifit 0,0,1*/
+    color: blue;
+}
+
+#Especificidade{
+    /*Select especifit 1,0,0,*/
+    color: red;
+}
+
+#Especificidade p{
+       /*Select especifit 1,0,1,*/
+    color: chocolate;
+}
+
+.Especificidade{
+    /*Select especifit 0,1,0,*/
+    color: green;
+}

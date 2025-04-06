@@ -1,0 +1,22 @@
+/*Valores de unidade de medida
+
+cada propriedade tem um valor 
+property 
+valeu
+
+text-transform: capitalize; inicio de cada palavra em maiusculo
+text-transform: uppercase; todas as letras em maiusculo
+text-transform: lowercase; todas as letras em minusculo
+
+
+
+*/
+
+h3{
+    text-transform: capitalize;
+  
+}
+
+h4{
+    text-transform: uppercase;
+}

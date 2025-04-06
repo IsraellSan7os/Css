@@ -1,0 +1,9 @@
+p {
+    color: violet;
+    color: aqua;
+}
+/*Mesmo que seja a mesma propriedade, o css vai pegar a ultima propriedade*/
+
+#green {
+    color: rgb(9, 216, 9);
+}
