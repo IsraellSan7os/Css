@@ -1,0 +1,20 @@
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+  
+}
+
+.container {
+    display: flex;
+    border: solid;
+    padding: 30px;
+    gap: 30px;
+
+
+}

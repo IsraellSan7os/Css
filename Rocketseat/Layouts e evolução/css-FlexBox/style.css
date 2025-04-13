@@ -1,0 +1,25 @@
+
+.container{
+ border: solid;
+ height: 250px;
+ align-items: center;
+ justify-content: center;
+}
+
+.container div {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente o conteúdo */
+    align-items: center;     /* alinha verticalmente o conteúdo */
+    text-align: center;      /* mantém o texto centralizado caso tenha múltiplas linhas */
+  }
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+
+}

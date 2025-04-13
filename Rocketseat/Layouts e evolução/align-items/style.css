@@ -1,0 +1,47 @@
+
+body{
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: 20px solid rgb(0, 0, 0);
+
+
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border: solid;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    /* mantém o texto centralizado caso tenha múltiplas linhas */
+}
+
+
+.container {
+    border: solid;
+    max-width: 500px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.container div img{
+    width: 100px;
+    height: 100px;
+
+}
+
+img:hover{
+   background-color: black;
+}
+

@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 20px solid rgb(0, 0, 0);
+
+
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border: solid;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.container {
+    border: solid;
+    width: 800px;
+    min-height: 400px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.container div img {
+    width: 100px;
+    height: 100px;
+
+}

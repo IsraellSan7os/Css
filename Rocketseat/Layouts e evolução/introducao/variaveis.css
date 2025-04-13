@@ -1,0 +1,12 @@
+/*global  se eu quiser eu posso reescrever a variavel emquallquer lugar*/
+:root{
+ --cor-Princioal: #6B7280;
+ --cor-Letras: #111827;
+ --cor-Letras-secundarias:#BFDBFE;
+}
+
+/* Seleciona o elemento raiz do documento:
+   <html> no caso de HTML */ 
+   :root  { 
+    background : yellow ; 
+  }
