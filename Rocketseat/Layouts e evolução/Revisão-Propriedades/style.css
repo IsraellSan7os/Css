@@ -1,0 +1,24 @@
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border: solid;
+    background-color: aqua;
+    width: 100px;
+  
+
+}
+
+
+.container{
+    height: 100vh;
+    border: solid;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+   
+
+
+}

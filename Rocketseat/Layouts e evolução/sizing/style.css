@@ -1,0 +1,30 @@
+
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border: solid;
+    background-color: aqua;
+   
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;  
+    align-items: start;
+    flex-wrap: wrap;
+
+}
+
+
+.container div{
+   flex-basis: 120px;
+   flex-shrink:1 ;
+
+}
