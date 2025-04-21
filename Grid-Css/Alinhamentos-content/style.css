@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.grid{
+
+    display: grid;
+
+ 
+    grid-template-columns:repeat(3, 100px);
+    grid-template-rows:repeat(3, 100px);
+    gap: 8px;
+    place-content: center;
+
+ 
+    /* place-content: center; */
+/* Nao precisa usar o justify content nem align content  */
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: black;
+
+}
+
+.grid > div{
+    background-color: aqua;
+
+}
+
+.grid div:nth-child(3){
+   align-self: flex-start;
+   justify-self:flex-end;
+}
+
+.grid div:nth-child(7){
+  
+    justify-self: center;
+    align-self:center;
+ }
+
+ .grid div:nth-child(1){
+    align-self: flex-end;
+    justify-self:center;
+ }
+
+ .grid div:nth-child(5){
+    align-self: flex-start;
+    justify-self:start;
+ }
+ 
+
+ .grid div:nth-child(9){
+    align-self: flex-end;
+    justify-self:flex-end;
+ }
+ 
+ 
+ 
+
+
