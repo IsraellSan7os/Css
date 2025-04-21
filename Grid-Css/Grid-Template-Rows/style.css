@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(0, 0, 0, 0.473);
+    margin: 0;
+}
+
+#app{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: solid 1px red;
+   
+
+}
+
+
+#app div{
+    border: solid 1px black;
+  
+}
+
+span{
+    border: solid 1px rgb(202, 94, 94);
+   
+}

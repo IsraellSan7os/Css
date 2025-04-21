@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+#app{
+    display: grid;
+
+}
+
+
+#app div{
+    border: solid 1px black;
+    margin-bottom: 20px;
+}
+
+span{
+    border: solid 1px rgb(202, 94, 94);
+}

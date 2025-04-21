@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+
+    -text-align: center;
+  }
+
+
+  #app > *{
+    border: solid 1px black;
+  }
+
+#app header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#app main{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#app aside{
+  grid-column-start: 3;
+  grid-column-end:3;
+}
+
+#app footer{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+
+
